@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-weight: 900;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+    background: rgb(157, 200, 243);
+}
+
+header {
+    height: fit-content;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.image img {
+    border-radius: 20px;
+    width: 180px;
+    height: fit-content;
+    padding: 8px 5px 5px 5px;
+}
+
+.right {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.right h1 {
+    margin: 0 30%;
+    padding: 5px 5px;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.right h1:hover {
+    color: rgb(255, 0, 0);
+}
+
+.right p {
+    color: rgb(255, 255, 255);
+    padding: 10px 200px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------ */
+section {
+    height: fit-content;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+}
+
+.education h1 {
+    color: rgb(255, 255, 255);
+}
+
+table {
+    padding: 10px 50px;
+    width: 100%;
+    margin: 0 130px;
+    color: white;
+}
+
+th {
+    border: 1px white;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border: 1px gray;
+    text-align: center;
+    padding: 2px;
+    font-weight: 400;
+}
+
+.education h1 {
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+
+/* ----------------------------------------------- */
+.work h1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+/* ------------------------------------------ */
+footer {
+    height: fit-content;
+    background-color: dodgerblue;
+    display: flex;
+    margin: 10px 10px;
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+}
+
+footer .docs {
+    color: white;
+}
+
+footer h1 {
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+
+footer ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 0 50px;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
